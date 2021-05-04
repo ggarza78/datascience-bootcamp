@@ -24,7 +24,6 @@ var austinWeather = [{
   high: 71
 }
 ];
-// YOUR CODE HERE
 
 d3.select("tbody")
   .selectAll("tr")
@@ -34,5 +33,3 @@ d3.select("tbody")
   .html(function(d) {
     return `<td>${d.date}</td><td>${d.low}</td><td>${d.high}</td>`;
   });
-
-

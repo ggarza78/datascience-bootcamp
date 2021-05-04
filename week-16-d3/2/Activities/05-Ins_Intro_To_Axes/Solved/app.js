@@ -43,9 +43,7 @@ var yAxis = d3.axisLeft(yScale);
 var xAxis = d3.axisBottom(xScale);
 
 // set x to the bottom of the chart
-chartGroup.append("g")
-  .attr("transform", `translate(0, ${chartHeight})`)
-  .call(xAxis);
+c
 
 // set y to the y axis
 // This syntax allows us to call the axis function
