@@ -4,7 +4,7 @@ from mrjob.job import MRJob
 class Bacon_count(MRJob):
     def mapper(self, _, line):
         for word in line.split():
-            if word.lower() == "bacon":
+            if "bacon" in word.lower():
                 yield "bacon", 1
 
     def reducer(self, key, values):

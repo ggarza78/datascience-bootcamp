@@ -1,10 +1,10 @@
 -- Table schema
 CREATE TABLE employee_personal_info (
-	employee_id INT PRIMARY KEY NOT NULL,
-	email TEXT,
-	gender TEXT,
-	hire_date DATE,
-	dob DATE
+  employee_id INTEGER PRIMARY KEY NOT NULL,
+  email VARCHAR,
+  marital_status VARCHAR,
+  gender VARCHAR,
+  salaried VARCHAR  
 );
 
 CREATE TABLE employee_password (

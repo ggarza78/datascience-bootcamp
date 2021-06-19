@@ -2,7 +2,7 @@
 
 **Files:**
 
-* [Resources/employees.csv](Resources/employee.csv)
+* [Resources/employees.csv](Resources/employees.csv)
 
 * [Resources/schema.sql](Resources/schema.sql)
 
@@ -16,11 +16,11 @@
 
   * Upload the CSV file to S3. **Note:** be sure to make the S3 bucket public.
 
-  * Use Spark on ZEPL to clean and transform the data.
+  * Use Spark on Colab to clean and transform the data.
 
   * Use pgAdmin to create the table schema in RDS.
 
-  * Load the data from Pandas DataFrames into RDS.
+  * Load the data from Spark DataFrames into RDS.
 
 ### Attribution
 
